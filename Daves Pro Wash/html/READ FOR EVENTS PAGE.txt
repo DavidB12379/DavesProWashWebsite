@@ -1,0 +1,1 @@
+The Events page doesn't when opening from the index page link. Opening the Events.html it works but going to the page through the hyperlink doesn't work.

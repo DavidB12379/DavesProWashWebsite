@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+	<link rel="stylesheet" href="css/myMain.css">
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="Description" content="Daves Pro Wash">
+	<meta name="Keywords" content="Pressure Washing, House wash, soft wash">
+	<title>Daves Pro Wash - Home</title>
+</head>
+<body onLoad="MM_preloadImages('images/Indeximages/surface-cleaner.jpg','images/Indeximages/siding.jpg','images/Indeximages/deck.jpg')">
+	<div id="pagewrap">
+		<header>
+			<img src="images/logo.jpg" width="200" height="200" alt="Logo"/>
+		</header>
+		<header class="menuBar" height= "50">
+			
+		<div class="button">
+		  <a href="index03.html" class="textLink">Home</a> </div>
+			
+		<div class="button">
+		  <a href="html/Services.html" class="textLink">Services</a> </div>
+			
+		<div class="button">
+		  <a href="html/Quotes02.html" class="textLink">Quotes</a> </div>
+			
+		<div class="button">
+		  <a href="html/Services.html" class="textLink">Pricing</a> </div>
+		
+		
+		</header>
+		<section id="content">
+			<h2>Welcome</h2>
+			<p> <span style="font-style:oblique; font-weight: bold">Welcome to Daves Pro Wash</span> <br> We have a variety of services from Soft Washing your house, roof or deep clean your concrete. Get a <strong><em>FREE</em></strong> quote today! </p>
+		</section>
+		<section id="middle">
+			<h2>Content</h2>
+			<p>
+			  <map name="Concrete">
+			    
+			    <area shape="Default" href="https://www.youtube.com/watch?v=EDaqhH5O4Jw" alt="Youtube Video about Concrete Cleaning" target="_blank" onClick="myFunction()">
+		      </map>
+			  <script>
+				function myFunction() {
+				  alert("You are about to open Youtube")
+				}
+			  </script>
+	      <img src="images/Indeximages/t-surface-cleaner.jpg" alt="" id="myTIamge1" onMouseOver="MM_swapImage('myImage','','images/Indeximages/surface-cleaner.jpg',1)" onMouseOut="MM_swapImgRestore()"/> <img src="images/Indeximages/t-siding.jpg" alt="" id="myTImage2" onMouseOver="MM_swapImage('myImage','','images/Indeximages/siding.jpg',1)" onMouseOut="MM_swapImgRestore()"/> <img src="images/Indeximages/t-deck.jpg" alt="" id="myTImage3" onMouseOver="MM_swapImage('myImage','','images/Indeximages/deck.jpg',1)" onMouseOut="MM_swapImgRestore()"/> </p>
+			<p><img src="images/Indeximages/surface-cleaner.jpg" alt="" id="myImage"/></p>
+			
+		</section>
+		<aside id="sidebar">
+		  <h2>Additional Links</h2>
+			<p>Ideas</p>
+			<p>FaceBook</p>
+			<p>Videos</p>
+			<p><a href="html/Coupons.html" class="textLink">Coupons</a></p>
+			<p><a href="html/Testimonials.html" class="textLink">Testimonials</a></p>
+		</aside>
+		<footer class="menuBar">
+			<div class="button">
+		  <a href="html/About Us.html" class="textLink">About Us</a> </div>
+		<div class="button">
+			Locations
+		</div>
+		<div class="button">
+			Contact 
+		</div>
+		<div class="button">
+		  <a href="html/Privacy.html" class="textLink">Legal</a> </div>
+		</footer>
+	</div>
+
+
+
+
+</body>
+</html>

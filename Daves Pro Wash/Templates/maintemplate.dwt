@@ -1,0 +1,81 @@
+<!doctype html>
+<link rel="stylesheet" href="../css/template.css">
+<html>
+	
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="Description" content="Daves Pro Wash">
+	<meta name="Keywords" content="Pressure Washing, House wash, soft wash">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Daves Pro Wash - Template</title>
+	<!-- TemplateEndEditable -->
+</head>
+<body>
+	<div id="pagewrap">
+		<header class="headerText">
+			<img src="../images/logo.jpg" width="200" height="200" alt="Logo"/>
+        <!-- TemplateBeginEditable name="contentTitle" -->Template<!-- TemplateEndEditable --></header>
+		<header class="menuBar" height= "50">
+			
+		<div class="button">
+		  <a href="../index.html" class="textLink">Home</a> </div>
+			
+		<div class="button">
+		  <a href="../html/Services.html" class="textLink">Services </a></div>
+			
+		<div class="button">
+		  <a href="../html/Quotes02.html" class="textLink">Quotes</a> </div>
+			
+		<div class="button">
+		  <a href="../html/Events.html" class="textLink">Events</a> </div>
+		
+		
+		</header>
+		<section id="content">
+			<h2>Welcome</h2>
+			<p> <span style="font-style:oblique; font-weight: bold">Welcome to Daves Pro Wash</span> <br> We have a variety of services from Soft Washing your house, roof or deep clean your concrete. Get a <strong><em>FREE</em></strong> quote today! </p>
+		</section>
+		<section id="middle">
+			
+	      <!-- TemplateBeginEditable name="contentRegion" -->contentRegion<br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <br>
+	      <!-- TemplateEndEditable -->
+			
+		</section>
+		<aside id="sidebar">
+		  <h2>Additional Links</h2>
+			<p>Ideas</p>
+			<p>FaceBook</p>
+			<p>Videos</p>
+			<p><a href="../html/Coupons.html" class="textLink">Coupons</a></p>
+			<p>Reviews</p>
+			<p><a href="../html/Testimonials.html" class="textLink">Testimonials</a></p>
+		</aside>
+		<footer class="menuBar">
+			<div class="button">
+		  <a href="../html/About Us.html" class="textLink">About Us</a> </div>
+		<div class="button">
+			Locations
+		</div>
+		<div class="button">
+			Contact 
+		</div>
+		<div class="button">
+		  <a href="../html/Privacy02.html" class="textLink">Privacy Policy</a> </div>
+		</footer>
+	</div>
+
+
+
+
+</body>
+</html>

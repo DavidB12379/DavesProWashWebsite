@@ -1,0 +1,175 @@
+@import url(https://font.google.leapis.com/css?family=Open+Sans);
+/* CSS Document */
+
+body {
+	font-family: 'Open San', sans-serif;
+	background-image: url("../images/water-background2.jpg");
+}
+
+img {
+	max-width:100%;
+}
+
+/* Unvisited links */
+a:link{
+	color: white;
+}
+
+/* visited link */
+
+a:visited {
+	color: #D3d3d3
+}
+
+/* Mouse over link */
+
+a:hover{
+	color: yellow;
+}
+
+/* select link */
+
+a:active{
+	color: black;
+}
+
+/* unvisited text links */
+
+a.textLink:link{
+	color:black;
+}
+
+/* visited text links */
+a.textLink:visited{
+	color:darkgreen;
+}
+
+/* mouse over txt link */
+a.textLink:hover{
+	color: darkgrey;
+}
+
+/* select text links */
+
+a.textLink:active {
+	color: blue
+}
+
+
+#pagewrap {
+	padding: 5px;
+	width: 1000Px;
+	margin: 20px auto;
+	border-width: 5px;
+	border-style: ridge;
+	border-color: #485759;
+	background-color: white;
+}
+
+header {
+	padding: 0px;
+	background-color:#B5D9DF;
+}
+
+/*structure - Menu Bar */
+.menuBar{
+	color:white;
+	text-align:center;
+	height:25px;
+}
+
+.button{
+	background-color:#559AA6;
+	width:24%;
+	margin:0 .5%;
+	float:left;
+}
+
+#content {
+	width:190px;
+	float:left;
+	padding:5px 15px;
+}
+
+#middle {
+	width: 494px; /* Accounts for border values*/
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+	width: 170px;
+	padding: 5px 15px;
+	float: left;
+}
+
+footer {
+	clear: both;
+	padding: 0px 15px;
+	background-color:#B5D9DF;
+}
+
+/************************
+Media Queries
+*************************/
+/*For 980px or less*/
+@media screen and (max-width:980px) {
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width:41%;
+		padding:1% 4%;
+	}
+
+	#middle {
+		width: 41%; /* Accounts for border values*/
+		float: right;
+		padding: 1% 4%;
+		margin: 0px 5px 5px 5px;
+	}
+	#sidebar {
+		clear: both;
+		width: auto;
+		padding: 1% 4%;
+		float: none;
+	}
+	
+	header, footer{
+		padding: 1% 4%;
+	}
+}
+
+/*For 600px or less*/
+@media screen and (max-width:600px) {
+	#content {
+		width:auto;
+		float:none;
+	}
+
+	#middle {
+		width:auto;
+		float:none;
+		margin-left: 0px;
+	}
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+}
+
+/*For 480px or less*/
+@media screen and (max-width:480px){
+	header{
+		height: auto;
+	}
+	h1{
+		font-size:2em;
+	}
+	#sidebar{
+		display: none;
+	}
+}
+
+

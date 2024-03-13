@@ -1,0 +1,37 @@
+<table width="80%" border="1" align="center">
+  <tr>
+    <td width="14%" height="18" valign="top">Date</td>
+    <td width="15%" valign="top">Event</td>
+    <td width="71%" valign="top">Description</td>
+  </tr>
+
+</table>
+<script type="text/javascript">
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","events.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+document.write("<table  width='80%' border='1' align='center'>");
+
+var x=xmlDoc.getElementsByTagName("SUBJECT");
+for (i=0;i<x.length;i++)
+  { 
+  document.write("<tr><td width='14%' valign='top'>");
+  document.write(x[i].getElementsByTagName("DATE")[0].childNodes[0].nodeValue);
+  document.write("</td><td width='15%' valign='top'>");
+  document.write(x[i].getElementsByTagName("EVENT")[0].childNodes[0].nodeValue);
+  document.write("</td><td width='71%' valign='top'>");
+  document.write(x[i].getElementsByTagName("DESC")[0].childNodes[0].nodeValue);
+  document.write("</td></tr>");
+  }
+document.write("</table>");
+</script>    
+    
